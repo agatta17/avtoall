@@ -29,7 +29,7 @@
           <th>Email</th>
         </tr>
       </thead>
-      <tbody v-for="user in filteredUsers" :key="user.id">
+      <tbody v-for="user in filteredUsers" :key="user._id">
         <tr>
           <th>{{user._id}}</th>
           <td>{{user.age}}</td>
